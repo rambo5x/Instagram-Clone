@@ -8,7 +8,6 @@ Description:\
 ● Programmed in Ruby.\
 ● Project consisted of professional modern development ideas such as unit testing.\
 ● Some more additional skills shown in this project was continuous integration with codemagic and integration testing locally.\
-● App was developed using Visual Studio Code and an Android emulator with Android Studio.
 
 Project Supervisor/Mentor:\
 Eric Michael Martinez
