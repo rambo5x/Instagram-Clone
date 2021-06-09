@@ -1,0 +1,7 @@
+<h1 id="user_email"><%= @user.email %></h1>
+<h1> <%= @posts.length %> <%= "Posts" %></h1>
+
+<br>
+<%# This is almost like a for loop for sub-templates.
+Rails will use the subtemplate in `application/_post.html.erb` for each entry in the @posts collection %>
+<%= render partial: "post", collection: @posts %>

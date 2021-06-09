@@ -1,0 +1,20 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+
+@import "bootstrap";
+
+body {
+  padding-top: 5rem;
+}
+
+.logo{
+    font-family: 'Oleo Script', cursive;
+}
+
+.navbar{
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color:white;
+}
+
+.card{
+   margin-bottom: 30px;
+}

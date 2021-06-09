@@ -1,0 +1,3 @@
+<%# This is almost like a for loop for sub-templates.
+Rails will the subtemplate in `application/_post.html.erb` for each entry in the @posts collection %>
+<%= render partial: "post", collection: @posts %>
